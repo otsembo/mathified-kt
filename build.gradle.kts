@@ -1,9 +1,10 @@
 plugins {
     kotlin("multiplatform") version "1.8.21"
+    id("maven-publish")
 }
 
 group = "com.rutubishi"
-version = "1.0-SNAPSHOT"
+version = "0.0.1-alpha"
 
 repositories {
     mavenCentral()

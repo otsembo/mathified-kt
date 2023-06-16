@@ -7,3 +7,6 @@
 /build/classes/kotlin/native/test/klib/
 /build/js/packages/mathified-kt-js-legacy/kotlin/
 /build/js/packages/mathified-kt-js-legacy-test/kotlin/
+
+# ide
+/.idea/
