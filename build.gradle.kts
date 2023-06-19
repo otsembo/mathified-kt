@@ -1,9 +1,12 @@
+import org.gradle.kotlin.dsl.repositories
+
 plugins {
     kotlin("multiplatform") version "1.8.21"
-    id("maven-publish")
+    id("convention.publication")
+    id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
 }
 
-group = "com.rutubishi"
+group = "com.github.otsembo"
 version = "0.0.1-alpha"
 
 repositories {
@@ -52,3 +55,4 @@ kotlin {
         val nativeTest by getting
     }
 }
+
